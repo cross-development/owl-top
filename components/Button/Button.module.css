@@ -29,3 +29,13 @@
   color: var(--primary);
   border: 1px solid var(--primary);
 }
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.down {
+  transform: rotate(90deg);
+  transition: all 0.2s linear;
+}
